@@ -3,7 +3,7 @@ public class Main {
         Author leoTolstoy = new Author("Leo", "Tolstoy");
         Author joanneRowling = new Author("Joanne", "Rowling");
 
-        Book warAndPease = new Book("War and Pease", leoTolstoy, 1865);
+        Book warAndPease = new Book("War and Peace", leoTolstoy, 1865);
         Book harryPotter = new Book("Harry Potter", joanneRowling, 1997);
         warAndPease.setYear(1867);
 
