@@ -1,3 +1,5 @@
+package pro.sky.java.course1.classes_objects;
+
 public class Author {
     private String name;
     private String lastName;
