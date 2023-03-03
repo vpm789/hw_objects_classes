@@ -2,6 +2,7 @@ package pro.sky.java.course1.classes_objects;
 
 public class Main {
     public static void main(String[] args) {
+
         Author leoTolstoy = new Author("Leo", "Tolstoy");
         Author joanneRowling = new Author("Joanne", "Rowling");
 
@@ -18,5 +19,8 @@ public class Main {
         System.out.println("Название книги - " + harryPotter.getTitle());
         System.out.println("Автор - " + harryPotter.getAuthor().getName() + " " + harryPotter.getAuthor().getLastName());
         System.out.println("Год издания - " + harryPotter.getYear());
+
+        System.out.println("Hello world!");
+
     }
 }
