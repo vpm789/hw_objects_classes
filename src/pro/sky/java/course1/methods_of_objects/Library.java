@@ -49,7 +49,11 @@ public class Library {
 
     @Override
     public String toString() {
-        return "Library: " + Arrays.toString(books).replaceAll("(^\\[)|(\\, )|(\\])", "\n");
+        String book = new String();
+        for (int i = 0; i < books.length; i++) {
+            book = book + ", " + books[i].toString();
+        }
+        return "Library:" + book.replaceAll(", ","\n");
     }
 
 }
